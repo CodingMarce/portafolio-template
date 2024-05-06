@@ -1,0 +1,108 @@
+/* Estilos generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+#inicio {
+    padding-top: 100px;
+}
+
+#inicio img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Estilos para la sección de habilidades */
+
+#habilidades {
+    padding-top: 50px;
+}
+
+.list-group-horizontal .list-group-item {
+    margin-right: 10px;
+}
+
+/* Estilos para la sección de certificados */
+
+#certificados {
+    padding: 80px;
+}
+
+#certificados h2 {
+    color: #e9eced;
+    padding-bottom: 50px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#habilidades .card {
+    margin-bottom: 20px;
+    border-color: #3882f6;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos para la sección de contacto */
+#contacto {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contacto form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#contacto .form-label {
+    font-weight: bold;
+}
+
+#contacto .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+/* Estilos responsivos */
+
+@media (max-width: 768px) {
+    #inicio .col-md-6 {
+        text-align: center;
+    }
+
+    #certificados .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
